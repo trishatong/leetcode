@@ -12,7 +12,7 @@ class Solution {
         int right = x;
         int mid = 0;
         while (left <= right) {
-            mid = left + (right - left) / 2;
+            mid = left + (right - left) / 2; // equivalent to (left + right) / 2, but avoids potential overflow
             if ((mid * mid) <= x) {
                 left = mid + 1;
             } else {
