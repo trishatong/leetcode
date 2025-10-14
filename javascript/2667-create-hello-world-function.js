@@ -6,7 +6,8 @@
  */
 var createHelloWorld = function() {
     
-    return function(...args) {
+    // ...args is a rest parameter; accepts a variable number of arguments and store them in an array
+    return function(...args) { 
         return "Hello World";
     }
 };
