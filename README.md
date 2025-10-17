@@ -1,2 +1,2 @@
 # leetcode
-my leetcode progress
+documenting my leetcode progress
